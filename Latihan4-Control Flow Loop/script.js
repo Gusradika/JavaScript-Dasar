@@ -17,3 +17,22 @@ do{
     alert("Looping do While : " + (k+1));
     k++;
 }while(k < 5);
+
+console.log("Hasil dari i,j,k : \n" + i +"\n"+ j+"\n"+k);
+
+alert("testing Variable Constant");
+
+for(var i=0; i<5; i++){
+    for(var j=0; j<5; j++){
+
+    }
+}
+
+console.log("Variable i,j :" + i + " " + j); 
+
+var i = 0;
+while( i < 5){
+    i++
+}
+
+console.log("While i : " + i);
