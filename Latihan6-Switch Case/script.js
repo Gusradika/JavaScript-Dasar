@@ -1,4 +1,6 @@
 
+//Catatan*
+// Prompt akan mengubah semua inputan menjadi STRING secara Otomatis!. tolong di ingat!. untuk equalsIgnoreCase tidak berlaku maka harus di gunakanlah .toLowerCase(); yang akan menjadikan semua prompt ke lower case semua lalu di scan ke switch case.
 
 var String = "";
 
