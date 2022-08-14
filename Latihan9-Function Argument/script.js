@@ -1,6 +1,10 @@
+/*
+        arguments merupakan pseudo Array dalam JS.
+*/
+
 function arg () {
-    console.log(arguments.length);
-    return arguments;
+    console.log(arguments.length);  // Cetak Length dari argument
+    return arguments;               // cetak isi arguments
 }
 
 
