@@ -27,6 +27,21 @@ console.log(arr3.join());
 
 //3. Shift & Unshift. keluar / masuk di awal
 
-arr3.unshift("Hamster","lele");
-arr3.shift();
+arr3.unshift("Hamster","lele"); // Menambah di awalan
+arr3.shift();   // Menghilangkan awalan
 console.log(arr3.join());
+
+//4. Splice. menyisipkan array di tengah2.
+// Splice(beginIndex, Hapus berapa, ElementBaru1, Elementbaru2, ...)
+
+var arr4 = ["aditya","ngurah","kesuma"];
+arr4.splice(1,1,"I Gusti");
+console.log(arr4);
+
+//5. Slice. Mengiris
+// Slice(BeginIndex, EndIndex);
+// Slice selalu menghasilkan array Baru
+
+var arr5 = ["aditya","ngurah","kesuma"];
+var arr6 = arr5.slice(1,3);
+console.log(arr6);
